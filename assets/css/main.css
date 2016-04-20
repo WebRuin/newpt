@@ -2709,10 +2709,56 @@
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
-			background-size: auto,							cover;
+			background-attachment: fixed,	fixed;
+			/*background-image: url("images/overlay1.png"), url("../../images/web-development-cropped.jpg");*/
+			background-size: auto, cover;
 		}
+		.main.style2.index {
+			background: rgb(41,39,66); /* Old browsers */
+			background-image: -moz-linear-gradient(top,  rgba(41,39,66,0.8) 0%, rgba(63,76,107,0.8) 100%), url("../../images/web-development-cropped.jpg");
+			background-image: -webkit-linear-gradient(top,  rgba(41,39,66,0.8) 0%,rgba(63,76,107,0.8) 100%), url("../../images/web-development-cropped.jpg");
+			background-image: linear-gradient(to bottom,  rgba(41,39,66,0.8) 0%,rgba(63,76,107,0.8) 100%), url("../../images/web-development-cropped.jpg");
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#292742', endColorstr='#3f4c6b',GradientType=0 );
+			background-attachment: fixed,	fixed;
+			background-size: auto, cover;
+		}
+		.main.style2.hosting {
+			background: rgb(41,39,66); /* Old browsers */
+			background-image: -moz-linear-gradient(top,  rgba(41,39,66,0.8) 0%, rgba(63,76,107,0.8) 100%), url("../../images/hosting.jpg");
+			background-image: -webkit-linear-gradient(top,  rgba(41,39,66,0.8) 0%,rgba(63,76,107,0.8) 100%), url("../../images/hosting.jpg");
+			background-image: linear-gradient(to bottom,  rgba(41,39,66,0.8) 0%,rgba(63,76,107,0.8) 100%), url("../../images/hosting.jpg");
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#292742', endColorstr='#3f4c6b',GradientType=0 );
+			background-attachment: fixed,	fixed;
+			background-size: auto, cover;
+		}
+		.main.style2.contact {
+			background-image: url("images/overlay1.png"), url("../../images/web-development-cropped.jpg");
+		}
+		.main.style2.design {
+			background: rgb(41,39,66); /* Old browsers */
+			background-image: -moz-linear-gradient(top,  rgba(41,39,66,0.8) 0%, rgba(63,76,107,0.8) 100%), url("../../images/Web-Design.png");
+			background-image: -webkit-linear-gradient(top,  rgba(41,39,66,0.8) 0%,rgba(63,76,107,0.8) 100%), url("../../images/Web-Design.png");
+			background-image: linear-gradient(to bottom,  rgba(41,39,66,0.8) 0%,rgba(63,76,107,0.8) 100%), url("../../images/Web-Design.png");
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#292742', endColorstr='#3f4c6b',GradientType=0 );
+			background-attachment: fixed,	fixed;
+			background-size: auto, cover;
+		}
+		.main.style2.about {
+			background-image: url("images/overlay1.png"), url("../../images/web-development-cropped.jpg");
+		}
+		.main.style2.sales {
+			background-image: url("images/overlay1.png"), url("../../images/web-development-cropped.jpg");
+		}
+		.main.style2.seo {
+			background: rgb(41,39,66); /* Old browsers */
+			background-image: -moz-linear-gradient(top,  rgba(41,39,66,0.8) 0%, rgba(63,76,107,0.8) 100%), url("../../images/SEO.jpg");
+			background-image: -webkit-linear-gradient(top,  rgba(41,39,66,0.8) 0%,rgba(63,76,107,0.8) 100%), url("../../images/SEO.jpg");
+			background-image: linear-gradient(to bottom,  rgba(41,39,66,0.8) 0%,rgba(63,76,107,0.8) 100%), url("../../images/SEO.jpg");
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#292742', endColorstr='#3f4c6b',GradientType=0 );
+			background-attachment: fixed,	fixed;
+			background-size: auto, cover;
+		}
+
 
 			.main.style2 a {
 				border-bottom-color: rgba(255, 255, 255, 0.5);
