@@ -2981,6 +2981,38 @@
 		opacity: 1;
 	}
 
+/* Helper Classes */
+
+	.un-rotate {
+		-moz-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+		display: inline-block;
+		border-radius: 50%;
+		border: 5px solid #245EA7;
+	}
+	.un-rotate:before {
+	  content: " ";
+	  position: absolute;
+	  z-index: -1;
+	  top: 5px;
+	  left: 5px;
+	  right: 5px;
+	  bottom: 5px;
+	  border: 2px solid #245EA7;
+		border-radius: 50%;
+	}
+
+	.js-text {
+		font-size: 4em;
+		font-weight: bolder;
+		color: #245EA7;
+		font-style: italic;
+		padding: 15px;
+    line-height: 1;
+	}
+
 /* Footer */
 
 	#footer {
